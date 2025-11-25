@@ -1,0 +1,281 @@
+[
+  {
+    "method": "lsa",
+    "prompt": "",
+    "prompt_weight": 0.0,
+    "sentences_count": 10,
+    "metrics": {
+      "rouge_1": 0.4732142857142857,
+      "rouge_2": 0.21656050955414013,
+      "rouge_l_sentence": 0.19783965755036398,
+      "rouge_l_summary": 0.015068394339805646,
+      "precision": 0.1,
+      "recall": 0.1,
+      "f_score": 0.10000000000000002,
+      "cosine_similarity": 0.8903308014520399,
+      "unit_overlap": 0.1839738348323794,
+      "execution_time": 0.13477492332458496,
+      "summary_length": 10
+    },
+    "summary": [
+      "Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content.",
+      "For text, extraction is analogous to the process of skimming, where the summary (if available), headings and subheadings, figures, the first and last paragraphs of a section, and optionally the first and last sentences in a paragraph are read before one chooses to read the entire document in detail.Other examples of extraction that include key sequences of text in terms of clinical relevance (including patient/problem, intervention, and outcome).",
+      "Some techniques and algorithms which naturally model summarization problems are TextRank and PageRank, Submodular set function, Determinantal point process, maximal marginal relevance (MMR) etc.",
+      "\"The Army Corps of Engineers, rushing to meet President Bush's promise to protect New Orleans by the start of the 2006 hurricane season, installed defective flood-control pumps last year despite warnings from its own expert that the equipment would fail during a storm, according to documents obtained by The Associated Press\".",
+      "Hulth uses a reduced set of features, which were found most successful in the KEA (Keyphrase Extraction Algorithm) work derived from Turney's seminal paper.",
+      "While supervised methods have some nice properties, like being able to produce interpretable rules for what features characterize a keyphrase, they also require a large amount of training data.",
+      "Although the system exhibited good results, the researchers wanted to explore the effectiveness of a maximum entropy (ME) classifier for the meeting summarization task, as ME is known to be robust against feature dependencies.",
+      "The two methods were developed by different groups at the same time, and LexRank simply focused on summarization, but could just as easily be used for keyphrase extraction or any other NLP ranking task.",
+      "Automatic summaries present information extracted from multiple sources algorithmically, without any editorial touch or subjective human intervention, thus making it completely unbiased.",
+      "Although they did not replace other approaches and are often combined with them, by 2019 machine learning methods dominated the extractive summarization of single documents, which was considered to be nearing maturity."
+    ]
+  },
+  {
+    "method": "luhn",
+    "prompt": "",
+    "prompt_weight": 0.0,
+    "sentences_count": 10,
+    "metrics": {
+      "rouge_1": 0.44642857142857145,
+      "rouge_2": 0.17197452229299362,
+      "rouge_l_sentence": 0.15614256161726314,
+      "rouge_l_summary": 0.015753195162757392,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f_score": 0.0,
+      "cosine_similarity": 0.7621805251661219,
+      "unit_overlap": 0.15372035977105478,
+      "execution_time": 0.0290071964263916,
+      "summary_length": 10
+    },
+    "summary": [
+      "Video summarization algorithms identify and extract from the original video content the most important frames (key-frames), and/or the most important video segments (key-shots), normally in a temporally ordered fashion.Video summaries simply retain a carefully selected subset of the original video frames and, therefore, are not identical to the output of video synopsis algorithms, where new video frames are being synthesized based on the original video content.",
+      "Examples of extracted content include key-phrases that can be used to \"tag\" or index a text document, or key sentences (including headings) that collectively comprise an abstract, and representative images or video segments, as stated above.",
+      "Some techniques and algorithms which naturally model summarization problems are TextRank and PageRank, Submodular set function, Determinantal point process, maximal marginal relevance (MMR) etc.",
+      "A keyphrase extractor might select \"Army Corps of Engineers\", \"President Bush\", \"New Orleans\", and \"defective flood-control pumps\" as keyphrases.",
+      "Supervised learning approaches Beginning with the work of Turney,many researchers have approached keyphrase extraction as a supervised machine learning problem.",
+      "It is worth noting that TextRank was applied to summarization exactly as described here, while LexRank was used as part of a larger summarization system (MEAD) that combines the LexRank score (stationary probability) with other features like sentence position and length using a linear combination with either user-specified or automatically tuned weights.",
+      "Multi-document summarization Main article: Multi-document summarization Multi-document summarization is an automatic procedure aimed at extraction of information from multiple texts written about the same topic.",
+      "Intrinsic versus extrinsic Intrinsic evaluation assesses the summaries directly, while extrinsic evaluation evaluates how the summarization system affects the completion of some other task.",
+      "Inter-textual versus intra-textual Intra-textual evaluation assess the output of a specific summarization system, while inter-textual evaluation focuses on contrastive analysis of outputs of several summarization systems.",
+      "Domain-specific versus domain-independent summarization Domain-independent summarization techniques apply sets of general features to identify information-rich text segments."
+    ]
+  },
+  {
+    "method": "edmundson",
+    "prompt": "",
+    "prompt_weight": 0.0,
+    "sentences_count": 10,
+    "metrics": {
+      "rouge_1": 0.6696428571428571,
+      "rouge_2": 0.5605095541401274,
+      "rouge_l_sentence": 0.5112640796751908,
+      "rouge_l_summary": 0.021119911199571278,
+      "precision": 0.3,
+      "recall": 0.3,
+      "f_score": 0.3,
+      "cosine_similarity": 0.8252396652665548,
+      "unit_overlap": 0.10956663941128372,
+      "execution_time": 0.03232598304748535,
+      "summary_length": 10
+    },
+    "summary": [
+      "Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content.",
+      "Artificial intelligence (AI) algorithms are commonly developed and employed to achieve this, specialized for different types of data.",
+      "Text summarization is usually implemented by natural language processing methods, designed to locate the most informative sentences in a given document.",
+      "Video summarization algorithms identify and extract from the original video content the most important frames (key-frames), and/or the most important video segments (key-shots), normally in a temporally ordered fashion.Video summaries simply retain a carefully selected subset of the original video frames and, therefore, are not identical to the output of video synopsis algorithms, where new video frames are being synthesized based on the original video content.",
+      "Commercial products In 2022 Google Docs released an automatic summarization feature.",
+      "Summarization systems are able to create both query relevant text summaries and generic machine-generated summaries depending on what the user needs.",
+      "An example of a summarization problem is document summarization, which attempts to automatically produce an abstract from a given document.",
+      "Imagine a system, which automatically pulls together news articles on a given topic (from the web), and concisely represents the latest news as a summary.",
+      "History The first publication in the area dates back to 1957  (Hans Peter Luhn), starting with a statistical technique.",
+      "This includes models such as T5 and Pegasus."
+    ]
+  },
+  {
+    "method": "text-rank",
+    "prompt": "",
+    "prompt_weight": 0.0,
+    "sentences_count": 10,
+    "metrics": {
+      "rouge_1": 0.5357142857142857,
+      "rouge_2": 0.2929936305732484,
+      "rouge_l_sentence": 0.20337036446832246,
+      "rouge_l_summary": 0.014309132262654884,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f_score": 0.0,
+      "cosine_similarity": 0.844563161125363,
+      "unit_overlap": 0.1455437448896157,
+      "execution_time": 0.11926698684692383,
+      "summary_length": 10
+    },
+    "summary": [
+      "Video summarization algorithms identify and extract from the original video content the most important frames (key-frames), and/or the most important video segments (key-shots), normally in a temporally ordered fashion.Video summaries simply retain a carefully selected subset of the original video frames and, therefore, are not identical to the output of video synopsis algorithms, where new video frames are being synthesized based on the original video content.",
+      "For text, extraction is analogous to the process of skimming, where the summary (if available), headings and subheadings, figures, the first and last paragraphs of a section, and optionally the first and last sentences in a paragraph are read before one chooses to read the entire document in detail.Other examples of extraction that include key sequences of text in terms of clinical relevance (including patient/problem, intervention, and outcome).",
+      "Abstractive-based summarization Abstractive summarization methods generate new text that did not exist in the original text.This has been applied mainly for text.",
+      "Applications and systems for summarization There are broadly two types of extractive summarization tasks depending on what the summarization program focuses on.",
+      "An example of a summarization problem is document summarization, which attempts to automatically produce an abstract from a given document.",
+      "Document summarization Like keyphrase extraction, document summarization aims to identify the essence of a text.",
+      "Supervised learning approaches Supervised text summarization is very much like supervised keyphrase extraction.",
+      "The main difficulty in supervised extractive summarization is that the known summaries must be manually created by extracting sentences so the sentences in an original training document can be labeled as \"in summary\" or \"not in summary\".",
+      "It is worth noting that TextRank was applied to summarization exactly as described here, while LexRank was used as part of a larger summarization system (MEAD) that combines the LexRank score (stationary probability) with other features like sentence position and length using a linear combination with either user-specified or automatically tuned weights.",
+      "Multi-document summarization Main article: Multi-document summarization Multi-document summarization is an automatic procedure aimed at extraction of information from multiple texts written about the same topic."
+    ]
+  },
+  {
+    "method": "lex-rank",
+    "prompt": "",
+    "prompt_weight": 0.0,
+    "sentences_count": 10,
+    "metrics": {
+      "rouge_1": 0.4107142857142857,
+      "rouge_2": 0.2229299363057325,
+      "rouge_l_sentence": 0.2607885557812599,
+      "rouge_l_summary": 0.01726868119934716,
+      "precision": 0.1,
+      "recall": 0.1,
+      "f_score": 0.10000000000000002,
+      "cosine_similarity": 0.8666192484564713,
+      "unit_overlap": 0.10629599345870809,
+      "execution_time": 0.2519962787628174,
+      "summary_length": 10
+    },
+    "summary": [
+      "Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content.",
+      "An example of a summarization problem is document summarization, which attempts to automatically produce an abstract from a given document.",
+      "Supervised learning approaches Beginning with the work of Turney,many researchers have approached keyphrase extraction as a supervised machine learning problem.",
+      "Features might include the position in the document (i.e., the first few sentences are probably important), the number of words in the sentence, etc.",
+      "The main difficulty in supervised extractive summarization is that the known summaries must be manually created by extracting sentences so the sentences in an original training document can be labeled as \"in summary\" or \"not in summary\".",
+      "In both algorithms, the sentences are ranked by applying PageRank to the resulting graph.",
+      "Multi-document summarization Main article: Multi-document summarization Multi-document summarization is an automatic procedure aimed at extraction of information from multiple texts written about the same topic.",
+      "Thus, to get ranked highly and placed in a summary, a sentence must be similar to many sentences that are in turn also similar to many other sentences.",
+      "For example, in document summarization, one would like the summary to cover all important and relevant concepts in the document.",
+      "Hence, one could combine one submodular function which models diversity, another one which models coverage and use human supervision to learn a right model of a submodular function for the problem."
+    ]
+  },
+  {
+    "method": "random",
+    "prompt": "",
+    "prompt_weight": 0.0,
+    "sentences_count": 10,
+    "metrics": {
+      "rouge_1": 0.25,
+      "rouge_2": 0.006369426751592357,
+      "rouge_l_sentence": 0.13625591869730913,
+      "rouge_l_summary": 0.02854035954549871,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f_score": 0.0,
+      "cosine_similarity": 0.8018874527026819,
+      "unit_overlap": 0.09811937857726902,
+      "execution_time": 0.00020885467529296875,
+      "summary_length": 10
+    },
+    "summary": [
+      "These algorithms model notions like diversity, coverage, information and representativeness of the summary.",
+      "Thus the algorithm is easily portable to new domains and languages.",
+      "Running PageRank/TextRank on the graph is likely to rank \"learning\" highly.",
+      "The edges between sentences are based on some form of semantic similarity or content overlap.",
+      "In this case, some training documents might be needed, though the TextRank results show the additional features are not absolutely necessary.",
+      "In such a way, multi-document summarization systems are complementing the news aggregators performing the next step down the road of coping with information overload.",
+      "Diversity Multi-document extractive summarization faces a problem of redundancy.",
+      "A new method for multi-lingual multi-document summarization that avoids redundancy generates ideograms to represent the meaning of each sentence in each document, then evaluates similarity by comparing ideogram shape and position.",
+      "Moreover, they all perform a quantitative evaluation with regard to different similarity metrics.",
+      "In the following year it was surpassed by latent semantic analysis (LSA) combined with non-negative matrix factorization (NMF)."
+    ]
+  },
+  {
+    "method": "reduction",
+    "prompt": "",
+    "prompt_weight": 0.0,
+    "sentences_count": 10,
+    "metrics": {
+      "rouge_1": 0.5267857142857143,
+      "rouge_2": 0.2802547770700637,
+      "rouge_l_sentence": 0.22649642297637657,
+      "rouge_l_summary": 0.01689940060089507,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f_score": 0.0,
+      "cosine_similarity": 0.7839262627859697,
+      "unit_overlap": 0.13000817661488143,
+      "execution_time": 0.0923314094543457,
+      "summary_length": 10
+    },
+    "summary": [
+      "Video summarization algorithms identify and extract from the original video content the most important frames (key-frames), and/or the most important video segments (key-shots), normally in a temporally ordered fashion.Video summaries simply retain a carefully selected subset of the original video frames and, therefore, are not identical to the output of video synopsis algorithms, where new video frames are being synthesized based on the original video content.",
+      "Abstractive-based summarization Abstractive summarization methods generate new text that did not exist in the original text.This has been applied mainly for text.",
+      "Applications and systems for summarization There are broadly two types of extractive summarization tasks depending on what the summarization program focuses on.",
+      "An example of a summarization problem is document summarization, which attempts to automatically produce an abstract from a given document.",
+      "Document summarization Like keyphrase extraction, document summarization aims to identify the essence of a text.",
+      "Supervised learning approaches Supervised text summarization is very much like supervised keyphrase extraction.",
+      "The main difficulty in supervised extractive summarization is that the known summaries must be manually created by extracting sentences so the sentences in an original training document can be labeled as \"in summary\" or \"not in summary\".",
+      "Maximum entropy-based summarization During the DUC 2001 and 2002 evaluation workshops, TNO developed a sentence extraction system for multi-document summarization in the news domain.",
+      "It is worth noting that TextRank was applied to summarization exactly as described here, while LexRank was used as part of a larger summarization system (MEAD) that combines the LexRank score (stationary probability) with other features like sentence position and length using a linear combination with either user-specified or automatically tuned weights.",
+      "Multi-document summarization Main article: Multi-document summarization Multi-document summarization is an automatic procedure aimed at extraction of information from multiple texts written about the same topic."
+    ]
+  },
+  {
+    "method": "kl",
+    "prompt": "",
+    "prompt_weight": 0.0,
+    "sentences_count": 10,
+    "metrics": {
+      "rouge_1": 0.5357142857142857,
+      "rouge_2": 0.4140127388535032,
+      "rouge_l_sentence": 0.2822095663314486,
+      "rouge_l_summary": 0.014619339457531978,
+      "precision": 0.1,
+      "recall": 0.1,
+      "f_score": 0.10000000000000002,
+      "cosine_similarity": 0.8445513325633971,
+      "unit_overlap": 0.11856091578086672,
+      "execution_time": 6.462621212005615,
+      "summary_length": 10
+    },
+    "summary": [
+      "Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content.",
+      "Video summarization algorithms identify and extract from the original video content the most important frames (key-frames), and/or the most important video segments (key-shots), normally in a temporally ordered fashion.Video summaries simply retain a carefully selected subset of the original video frames and, therefore, are not identical to the output of video synopsis algorithms, where new video frames are being synthesized based on the original video content.",
+      "Approaches There are two general approaches to automatic summarization: extraction and abstraction.",
+      "An example of a summarization problem is document summarization, which attempts to automatically produce an abstract from a given document.",
+      "At a very high level, summarization algorithms try to find subsets of objects (like set of sentences, or a set of images), which cover information of the entire set.",
+      "Some techniques and algorithms which naturally model summarization problems are TextRank and PageRank, Submodular set function, Determinantal point process, maximal marginal relevance (MMR) etc.",
+      "The main difficulty in supervised extractive summarization is that the known summaries must be manually created by extracting sentences so the sentences in an original training document can be labeled as \"in summary\" or \"not in summary\".",
+      "Some unsupervised summarization approaches are based on finding a \"centroid\" sentence, which is the mean word vector of all the sentences in the document.",
+      "Multi-document summarization Main article: Multi-document summarization Multi-document summarization is an automatic procedure aimed at extraction of information from multiple texts written about the same topic.",
+      "Thus, to get ranked highly and placed in a summary, a sentence must be similar to many sentences that are in turn also similar to many other sentences."
+    ]
+  },
+  {
+    "method": "llm",
+    "prompt": "",
+    "prompt_weight": 0.0,
+    "sentences_count": 10,
+    "metrics": {
+      "rouge_1": 0.7410714285714286,
+      "rouge_2": 0.6242038216560509,
+      "rouge_l_sentence": 0.44315306756334294,
+      "rouge_l_summary": 0.01829228286929089,
+      "precision": 0.2,
+      "recall": 0.2,
+      "f_score": 0.20000000000000004,
+      "cosine_similarity": 0.8017246122502991,
+      "unit_overlap": 0.11856091578086672,
+      "execution_time": 11.706274509429932,
+      "summary_length": 10
+    },
+    "summary": [
+      "Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content.",
+      "Although they did not replace other approaches and are often combined with them, by 2019 machine learning methods dominated the extractive summarization of single documents, which was considered to be nearing maturity.",
+      "Artificial intelligence (AI) algorithms are commonly developed and employed to achieve this, specialized for different types of data.",
+      "Text summarization is usually implemented by natural language processing methods, designed to locate the most informative sentences in a given document.",
+      "On the other hand, visual content can be summarized using computer vision algorithms.",
+      "Image summarization is the subject of ongoing research; existing approaches typically attempt to display the most representative images from a given image collection, or generate a video that only includes the most important content from the entire collection.",
+      "Video summarization algorithms identify and extract from the original video content the most important frames (key-frames), and/or the most important video segments (key-shots), normally in a temporally ordered fashion.Video summaries simply retain a carefully selected subset of the original video frames and, therefore, are not identical to the output of video synopsis algorithms, where new video frames are being synthesized based on the original video content.",
+      "Commercial products In 2022 Google Docs released an automatic summarization feature.",
+      "Approaches There are two general approaches to automatic summarization: extraction and abstraction.",
+      "Extraction-based summarization Here, content is extracted from the original data, but the extracted content is not modified in any way."
+    ]
+  }
+]

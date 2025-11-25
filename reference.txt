@@ -1,0 +1,10 @@
+Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content.
+Text summarization is usually implemented by natural language processing methods, designed to locate the most informative sentences in a given document.
+There are two general approaches to automatic summarization: extraction and abstraction.
+Visual content can be summarized using computer vision algorithms.
+Video summarization algorithms identify and extract from the original video content the most important frames (key-frames), and/or the most important video segments (key-shots), normally in a temporally ordered fashion.
+Extraction-based summarization extracts content from the original data, but the extracted content is not modified in any way.
+Abstractive-based summarization methods generate new text that did not exist in the original text.
+Summarization systems are able to create both query relevant text summaries and generic machine-generated summaries depending on what the user needs.
+The most common way to evaluate the informativeness of automatic summaries is to compare them with human-made model summaries.
+The most common way to evaluate summaries is ROUGE (Recall-Oriented Understudy for Gisting Evaluation).
