@@ -270,30 +270,6 @@ def print_results_table(results):
     print("=" * 100)
 
 
-def print_detailed_results(result):
-    """Print detailed results"""
-    print(f"\nMethod: {result['method']}")
-    if result['prompt']:
-        print(f"Prompt: {result['prompt']} (weight: {result['prompt_weight']})")
-    print(f"Summary length: {result['metrics']['summary_length']} sentences")
-    print(f"Execution time: {result['metrics']['execution_time']:.4f} seconds")
-    print("\nMetrics:")
-    m = result['metrics']
-    print(f"  ROUGE-1:        {m['rouge_1']:.4f}")
-    print(f"  ROUGE-2:        {m['rouge_2']:.4f}")
-    print(f"  ROUGE-L (sentence): {m['rouge_l_sentence']:.4f}")
-    print(f"  ROUGE-L (summary):  {m['rouge_l_summary']:.4f}")
-    print(f"  Precision:      {m['precision']:.4f}")
-    print(f"  Recall:         {m['recall']:.4f}")
-    print(f"  F-Score:        {m['f_score']:.4f}")
-    if 'cosine_similarity' in m:
-        print(f"  Cosine similarity: {m['cosine_similarity']:.4f}")
-        print(f"  Unit overlap:      {m['unit_overlap']:.4f}")
-    print("\nGenerated summary:")
-    for i, sentence in enumerate(result['summary'], 1):
-        print(f"  {i}. {sentence}")
-    print("-" * 100)
-
 
 def save_results_to_json(results, filename="evaluation_results.json"):
     """Save results to JSON file"""
@@ -427,18 +403,6 @@ def main():
     
     if results:
         print_results_table(results)
-        
-        # Show best configuration
-        best_rouge1 = max(results, key=lambda x: x['metrics']['rouge_1'])
-        best_fscore = max(results, key=lambda x: x['metrics']['f_score'])
-        
-        print("\n" + "=" * 100)
-        print("Best configuration by ROUGE-1:")
-        print_detailed_results(best_rouge1)
-        
-        if best_fscore != best_rouge1:
-            print("\nBest configuration by F-Score:")
-            print_detailed_results(best_fscore)
         
         # Save results
         save_results_to_json(results)

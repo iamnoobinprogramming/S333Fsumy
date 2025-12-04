@@ -1,3 +1,4 @@
+### sumy_eval
 sumy_eval lsa reference.txt --file=article.txt --format=plaintext --language=english --length=10
 sumy_eval luhn reference.txt --file=article.txt --format=plaintext --language=english --length=10
 sumy_eval edmundson reference.txt --file=article.txt --format=plaintext --language=english --length=10
@@ -20,9 +21,9 @@ sumy_eval kl reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summari
 ### test_model_performance.py
 python test_model_performance.py  --sentences=5
 python test_model_performance.py --methods text-rank --sentences=5
-python test_model_performance.py --methods text-rank --sentences=5 --prompt "focus on TextRank and LexRank"
+python test_model_performance.py --methods text-rank --sentences=5 --prompt "focus on TextRank and LexRank" --prompt-weight 1
 
-python test_model_performance.py --article article_chinese.txt --reference reference_chinese.txt --methods text-rank
+python test_model_performance.py --article article_chinese.txt --reference reference_chinese.txt --methods text-rank 
 
 - `--article`: Path to the article to summarize (default: `article.txt`).
 - `--reference`: Path to the reference summary (default: `reference.txt`).
@@ -33,9 +34,10 @@ python test_model_performance.py --article article_chinese.txt --reference refer
 
 
 ### sumy_summerizer.py
-python sumy_summerizer.py --url "https://en.wikipedia.org/wiki/Deep_learning" --methods text-rank --prompt "focus on TextRank and LexRank" --prompt-weight 0.7 --sentences 7 --language english
+python sumy_summerizer.py --url "https://en.wikipedia.org/wiki/Automatic_summarization" --methods text-rank --prompt "focus on TextRank and LexRank" --prompt-weight 0.7 --sentences 7 --language english
 python sumy_summerizer.py --article article.txt --methods text-rank lex-rank --prompt "focus on TextRank and LexRank" --prompt-weight 0.7 --sentences 7 --language english
 
+python sumy_summerizer.py --article article.txt --sentences=5 --prompt "focus on TextRank and LexRank"
 
 - `--url`: URL of the article to summarize.
 - `--article`: Path to the article file (default: `article.txt`).

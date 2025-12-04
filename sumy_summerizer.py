@@ -299,15 +299,6 @@ def main():
     print("\n" + "=" * 100)
     print(f"Results saved to {output_file}")
     
-    # Print simple preview
-    print("\nPreview of first result:")
-    if results:
-        first = results[0]
-        print(f"Method: {first['method']}")
-        for i, s in enumerate(first['summary'][:3], 1):
-            print(f"  {i}. {s}")
-        if len(first['summary']) > 3:
-            print("  ...")
 
 if __name__ == "__main__":
     main()
