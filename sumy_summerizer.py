@@ -28,7 +28,6 @@ from sumy.summarizers._summarizer import AbstractSummarizer
 
 
 class PromptEnhancedSummarizer(AbstractSummarizer):
-    """Enhanced summarizer with prompt support"""
     
     def __init__(self, base_summarizer, stemmer, language="english", prompt="", prompt_weight=0.5):
         super(PromptEnhancedSummarizer, self).__init__(stemmer)

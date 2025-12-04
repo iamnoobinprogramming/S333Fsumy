@@ -35,7 +35,6 @@ LANGUAGE = "english"
 
 
 class PromptEnhancedSummarizer(AbstractSummarizer):
-    """Enhanced summarizer, supports prompt"""
     
     def __init__(self, base_summarizer, stemmer, prompt="", prompt_weight=0.5):
         super(PromptEnhancedSummarizer, self).__init__(stemmer)

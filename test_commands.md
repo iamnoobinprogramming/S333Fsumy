@@ -18,6 +18,7 @@ sumy_eval reduction reference.txt --url=https://en.wikipedia.org/wiki/Automatic_
 sumy_eval kl reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10
 
 ### test_model_performance.py
+python test_model_performance.py  --sentences=5
 python test_model_performance.py --methods text-rank --sentences=5
 python test_model_performance.py --methods text-rank --sentences=5 --prompt "focus on TextRank and LexRank"
 

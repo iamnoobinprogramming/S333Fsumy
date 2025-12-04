@@ -1,21 +1,16 @@
 [
   {
     "method": "text-rank",
-    "prompt": "",
-    "prompt_weight": 0.5,
-    "sentences_count": 10,
-    "execution_time": 0.3041844367980957,
+    "prompt": "focus on TextRank and LexRank",
+    "prompt_weight": 1.0,
+    "sentences_count": 5,
+    "execution_time": 0.15366148948669434,
     "summary": [
-      "豬大哥比較懶惰，扛了一堆稻草到他選的空地，只花一天的時間，他就蓋好了他的稻草屋，他立馬就邀請他的兩個弟弟來看，很開心的對他們說：「你看～我的房子蓋好了，很漂亮吧！",
-      "」，於是豬二哥一下子搬木頭，一下子鋸木頭，花了三天的時間，他就蓋好了小木屋，之後他邀請豬大哥和豬小弟來看，很開心的對他們說：「你們看～我的房子蓋好了，不只漂亮還很牢固，不會被風吹倒！",
-      "終於過了整整一個月，豬小弟蓋好了房子，他邀請哥哥們來參觀，很開心的和他們說：「你看，我的房子終於蓋好了！",
-      "豬大哥和豬二哥對他說：「你的房子雖然很漂亮，但是花了太久的時間了，不過我們三兄弟的房子終於都蓋好啦，真是可喜可賀。",
-      "三隻小豬的房子都蓋好後，他們就過上了一段開心的日子，但是有一天，他們在外面聽到了大野狼的吼叫聲，三隻小豬都很緊張地跑回了自己家裡，把門鎖好，躲到棉被裡發抖，希望不要被大野狼發現，但不幸的事，大野狼還是發現了他們。",
-      "大野狼來到了豬大哥家的前面，大野狼在豬大哥家門口說到：「豬大哥，趕快給我把門打開！",
-      "」於是他吸了好大的一口氣，用力一吹，稻草屋就被吹走了，豬大哥被嚇的趕快逃去了豬二哥家。",
-      "」於是他向後退了幾步，往小木屋的方向跑去，用力一撞，「蹦」的一聲，小木屋就被撞倒了，豬大哥和豬二哥被嚇的趕快逃去了豬小弟家。",
-      "」豬大哥和豬二哥都很緊張的看向豬小弟，只見豬小弟一臉的輕鬆然後說：「大哥二哥不用害怕，大野狼進不來的。",
-      "」他先是深深吸了一口氣，用力一吹，磚頭屋沒有任何移動；然後他向後退了幾步，跑向了磚頭屋的方向，用力一撞，「蹦」的一聲，磚頭屋完全沒有任何移動，大野狼卻是撞到暈了過去，而且還把自己的頭撞了好大一包，醒來之後大野狼哭著說：「哎呀，痛死我了，我的頭好痛喔！"
+      "Unsupervised approach: TextRank Another keyphrase extraction algorithm is TextRank.",
+      "TextRank and LexRank The unsupervised approach to summarization is also quite similar in spirit to unsupervised keyphrase extraction and gets around the issue of costly training data.",
+      "LexRank is an algorithm essentially identical to TextRank, and both use this approach for document summarization.",
+      "In both LexRank and TextRank, a graph is constructed by creating a vertex for each sentence in the document.",
+      "Unlike TextRank, LexRank has been applied to multi-document summarization."
     ]
   }
 ]
