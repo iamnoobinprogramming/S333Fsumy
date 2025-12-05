@@ -4,7 +4,10 @@
 pip install -r requirements.txt
 
 ## Test
-you can look for the test commands in test_commands.md
+you can look for the test commands examples in test_commands.md
+
+sumy_summerizer.py results will be stored in summery_results.json
+test_model_performance.py results will be stored in evaluation_results.json
 
 # Automatic text summarizer
 
