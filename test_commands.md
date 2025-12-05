@@ -7,21 +7,37 @@ sumy_eval lex-rank reference.txt --file=article.txt --format=plaintext --languag
 sumy_eval random reference.txt --file=article.txt --format=plaintext --language=english --length=10
 sumy_eval reduction reference.txt --file=article.txt --format=plaintext --language=english --length=10
 sumy_eval kl reference.txt --file=article.txt --format=plaintext --language=english --length=10
-sumy_eval llm reference.txt --file=article.txt --format=plaintext --language=english --length=10
 
 sumy_eval lsa reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10
 sumy_eval luhn reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10
-sumy_eval edmundson reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10  no
+sumy_eval edmundson reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10 
 sumy_eval text-rank reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10
 sumy_eval lex-rank reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10
 sumy_eval random reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10
 sumy_eval reduction reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10
 sumy_eval kl reference.txt --url=https://en.wikipedia.org/wiki/Automatic_summarization --language=english --length=10
 
+
+### sumy
+sumy lsa --length=10 --file=article.txt
+sumy lex-rank --length=10 --file=article.txt
+sumy luhn --length=10 --file=article.txt 
+sumy edmundson --length=10 --file=article.txt 
+sumy lex-rank --length=10 --file=article.txt 
+sumy text-rank --length=10 --file=article.txt 
+sumy random --length=10 --file=article.txt 
+sumy reduction --length=10 --file=article.txt 
+sumy kl --length=10 --file=article.txt 
+
+
+sumy lex-rank --length=10 --url=https://en.wikipedia.org/wiki/Automatic_summarization
+
 ### test_model_performance.py
 python test_model_performance.py  --sentences=5
+python test_model_performance.py --methods lsa luhn lex-rank --sentences=10
 python test_model_performance.py --methods text-rank --sentences=5
 python test_model_performance.py --methods text-rank --sentences=5 --prompt "focus on TextRank and LexRank" --prompt-weight 1
+
 
 python test_model_performance.py --article article_chinese.txt --reference reference_chinese.txt --methods text-rank 
 
