@@ -49,11 +49,11 @@ python test_model_performance.py --article article_chinese.txt --reference refer
 - `--sentences`: Number of sentences for the summary (default: use reference summary length).
 
 
-### sumy_summerizer.py
-python sumy_summerizer.py --url "https://en.wikipedia.org/wiki/Automatic_summarization" --methods text-rank --prompt "focus on TextRank and LexRank" --prompt-weight 0.7 --sentences 7 --language english
-python sumy_summerizer.py --article article.txt --methods text-rank lex-rank --prompt "focus on TextRank and LexRank" --prompt-weight 0.7 --sentences 7 --language english
+### sumy_summarizer.py
+python sumy_summarizer.py --url "https://en.wikipedia.org/wiki/Automatic_summarization" --methods text-rank --prompt "focus on TextRank and LexRank" --prompt-weight 0.7 --sentences 7 --language english
+python sumy_summarizer.py --article article.txt --methods text-rank lex-rank --prompt "focus on TextRank and LexRank" --prompt-weight 0.7 --sentences 7 --language english
 
-python sumy_summerizer.py --article article.txt --sentences=5 --prompt "focus on TextRank and LexRank"
+python sumy_summarizer.py --article article.txt --sentences=5 --prompt "focus on TextRank and LexRank"
 
 - `--url`: URL of the article to summarize.
 - `--article`: Path to the article file (default: `article.txt`).
