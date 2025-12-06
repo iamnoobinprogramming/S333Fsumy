@@ -9,4 +9,3 @@ jieba
 pytest>=3.0.0
 setuptools
 lxml_html_clean
--e .

@@ -3,12 +3,20 @@
 ## Installation
 pip install -r requirements.txt
 
+pip install sumy
+
 ## Test
 you can look for the test commands examples in test_commands.md
 
 sumy_summarizer.py results will be stored in summary_results.json
 
 test_model_performance.py results will be stored in evaluation_results.json
+
+Fast example:
+
+python test_model_performance.py --methods lsa luhn lex-rank --sentences=10
+
+python sumy_summarizer.py --article article.txt --sentences=5 --prompt "focus on TextRank and LexRank"
 
 # Automatic text summarizer
 
