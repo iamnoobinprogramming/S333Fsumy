@@ -5,7 +5,7 @@ python test_model_performance.py --methods lsa luhn lex-rank --sentences=10
 
 python test_model_performance.py --methods text-rank --sentences=5
 
-python test_model_performance.py --methods text-rank --sentences=5 --prompt "focus on TextRank and LexRank" --prompt-weight 1
+python test_model_performance.py --reference reference.txt --methods text-rank --sentences=5 --prompt "focus on TextRank and LexRank" --prompt-weight 1
 
 python test_model_performance.py --article article_chinese.txt --reference reference_chinese.txt --methods text-rank 
 

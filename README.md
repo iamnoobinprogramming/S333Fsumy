@@ -3,9 +3,8 @@
 ## Installation
 pip install -r requirements.txt
 
-pip install sumy
 
-## Test
+## Test (sumy_summarizer.py, test_model_performance.py)
 you can look for the test commands examples in test_commands.md
 
 sumy_summarizer.py results will be stored in summary_results.json
@@ -14,11 +13,17 @@ test_model_performance.py results will be stored in evaluation_results.json
 
 Fast example:
 
-python test_model_performance.py --methods lsa luhn lex-rank --sentences=10
+python sumy_summarizer.py --url "https://en.wikipedia.org/wiki/Automatic_summarization" --sentences=5 --prompt "focus on TextRank and LexRank"
 
-python sumy_summarizer.py --article article.txt --sentences=5 --prompt "focus on TextRank and LexRank"
+python test_model_performance.py --reference reference.txt --article article.txt --methods lsa luhn lex-rank --sentences=10
 
-# Automatic text summarizer
+## Test (text_rank_mod2)
+
+Using as a library to adjust the scale of rating in TextRank or just try the SumyTestTR.py 
+
+May adjust the (alpha) and (rate) in SumyTestTR.py to get different result for text_rank_mod2
+
+# Automatic text summarizer（sumy）
 
 
 [![image](https://github.com/miso-belica/sumy/actions/workflows/run-tests.yml/badge.svg)](https://github.com/miso-belica/sumy/actions/workflows/run-tests.yml)
